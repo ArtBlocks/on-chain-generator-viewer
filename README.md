@@ -43,7 +43,7 @@ Help support decentralized access to the Art Blocks on-chain generator by pinnin
 IPFS detail:
 
 - CID: `QmYr3B1TREbgbS29hWmEAcnU96msFoGJ18mYemLtPkj7T6`
-- IPNS: `onchain-generator.artblocks.io`
+- DNSLink: `onchain-generator.artblocks.io`
 
 #### What is Pinning?
 
@@ -58,12 +58,20 @@ Pinning ensures the generator interface remains accessible through the IPFS netw
 
 #### Pin Using Local IPFS Node
 
-If you're running your own IPFS node
+If you're running your own IPFS node you can pin via CID or DNSLink
 
-Run the command:
+Pin via CID:
 
 ```
-ipfs pin add QmYr3B1TREbgbS29hWmEAcnU96msFoGJ18mYemLtPkj7T6`
+ipfs pin add QmYr3B1TREbgbS29hWmEAcnU96msFoGJ18mYemLtPkj7T6
+```
+
+or
+
+Pin via DNSLink:
+
+```
+ipfs pin add /ipns/onchain-generator.artblocks.io
 ```
 
 #### Other Pinning Services
