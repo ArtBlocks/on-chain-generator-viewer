@@ -56,7 +56,7 @@ If you're running your own IPFS node you can pin via CID or DNSLink
 Pin via CID:
 
 ```
-ipfs pin add QmYr3B1TREbgbS29hWmEAcnU96msFoGJ18mYemLtPkj7T6
+ipfs pin add bafybeicodqh762wabjalew7ysiprzsb5cpbqdxtkbtffpgj25ep2bkfluu
 ```
 
 or
