@@ -42,19 +42,12 @@ Help support decentralized access to the Art Blocks on-chain generator by pinnin
 
 IPFS detail:
 
-- CID: `QmYr3B1TREbgbS29hWmEAcnU96msFoGJ18mYemLtPkj7T6`
+- CID: `bafybeicodqh762wabjalew7ysiprzsb5cpbqdxtkbtffpgj25ep2bkfluu`
 - DNSLink: `onchain-generator.artblocks.io`
 
 #### What is Pinning?
 
 Pinning ensures the generator interface remains accessible through the IPFS network. The more people who pin the content, the more resilient and decentralized the network becomes.
-
-#### Pin Using Pinata
-
-1. Create an account at pinata.cloud
-2. Navigate to the "Pin By CID" page
-3. Enter CID: `QmYr3B1TREbgbS29hWmEAcnU96msFoGJ18mYemLtPkj7T6`
-4. Click "Pin"
 
 #### Pin Using Local IPFS Node
 
@@ -78,6 +71,7 @@ ipfs pin add /ipns/onchain-generator.artblocks.io
 
 You can also use other IPFS pinning services like:
 
+- Pinata
 - Infura
 - Web3.storage
 - Filebase
