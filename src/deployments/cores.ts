@@ -35,6 +35,12 @@ export const coreDeployments: {
       version: 3,
       startingProjectId: 495,
     },
+    {
+      label: "Art Blocks Curated: V3.2 Flex Onchain",
+      address: "0xAB00000000002ADE39f58F9D8278a31574fFBe77",
+      version: 3,
+      startingProjectId: 505,
+    },
   ],
   "11155111": [
     {
